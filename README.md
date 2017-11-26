@@ -1,13 +1,13 @@
-Data Science for Design. Assignment 3.
-===================
+# Data Science for Design. Assignment 3
+
 A group work for Data Science for Design. Assignment 3.
 
-Dataset
--------------
+## Dataset
+
 A dataset provided by **Majid Robinson: Marriage in Muhammad’s tribe**
 
-Team
--------------
+## Team
+
 - Ilyas Zholdasbayev
 - Wanying Zhang
 - Hanyu Liu
