@@ -10,6 +10,9 @@
 
     <title>Early islamic marriages</title>
 
+    <!-- Plot.ly CDN -->
+    <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -18,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
   </head>
 
@@ -38,10 +41,10 @@
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+              <a class="nav-link text-uppercase text-expanded" href="#">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+              <a class="nav-link text-uppercase text-expanded" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -57,14 +60,14 @@
 
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">Some general info
-          <strong>about our project</strong>
-        </h2>
+        <h2 class="text-center text-lg text-uppercase my-0">The Context</h2>
         <hr class="divider">
-        <img class="img-fluid float-left" src="img/overall-marriages.png" alt="" width="50%">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit totam libero expedita magni est delectus pariatur aut, aperiam eveniet velit cum possimus, autem voluptas. Eum qui ut quasi voluptate blanditiis?</p>
+        <p>Our story is about marriages behaviour of Quraysh tribe in early islamic period. And here we are trying to find some evidences of how marriage traditions might affect political system at that time or vice versa. Historically it's known that usually people in Arabian peninsula used to marry people from the same tribe, but it is not the constant. Below you can see what tribes Quraysh people used to marry with. This is overall graph of all generation we have in our database</p>
+        <div id="all-generaions-marriages"></div>
+        <p>Let's look at each generation separetely (graphs hoverable)</p>
+        <div id="4-9-generaions-marriages"></div>
+        <!-- <img class="img-fluid float-left" src="img/overall-marriages.png" alt="" width="50%"> -->
+        <p>Basically, we are not going to explore every tribe, but to focus on the most influential and major tribes who were the rulers of the first arabic kingdoms (caliphates): Umayyads and Hashimids. </p>
       </div>
 
       <div class="bg-faded p-4 my-4">
@@ -90,6 +93,8 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <script src="js/all-generations-marriages.js"></script>
+    <script src="js/4-9-generations-marriages.js"></script>
   </body>
 
 </html>

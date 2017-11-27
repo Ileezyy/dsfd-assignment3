@@ -75,3 +75,12 @@ hr.divider {
 .map-container iframe.clicked {
   pointer-events: auto;
 }
+
+.text-white{
+  color: #443221!important;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+.modebar{
+  display: none !important;
+}
