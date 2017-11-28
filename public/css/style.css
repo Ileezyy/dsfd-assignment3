@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   background: url('../img/back.jpg') no-repeat center center fixed;
@@ -28,7 +33,7 @@ h1 {
 .tagline{
   z-index: -1;
   position: fixed;
-  top: 75px;
+  top: 40px;
   left: 0;
   right: 0;
 }
@@ -42,6 +47,10 @@ h1 {
 .tagline-lower {
   font-size: 1.2rem;
   line-height: 1;
+}
+
+.first-div{
+  margin-top: 280px!important;
 }
 
 .text-expanded {
@@ -83,4 +92,12 @@ hr.divider {
 
 .modebar{
   display: none !important;
+}
+
+td a{
+  color: #896541;
+}
+
+td a:hover, td a:focus, td a:active{
+  color: #d1aa83;
 }
