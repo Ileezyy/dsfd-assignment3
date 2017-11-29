@@ -19,6 +19,16 @@ body {
     -o-background-size: cover;
 }
 
+body a {
+    color: #896541;
+}
+
+body a:hover,
+body a:focus,
+body a:active {
+    color: #d1aa83;
+}
+
 h1,
 h2,
 h3,
