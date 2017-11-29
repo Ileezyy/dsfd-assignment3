@@ -19,10 +19,6 @@ body {
     -o-background-size: cover;
 }
 
-.content-container {
-    margin-top: 200px;
-}
-
 h1,
 h2,
 h3,
@@ -40,7 +36,7 @@ h1 {
 .tagline {
     z-index: -1;
     position: fixed;
-    top: 40px;
+    top: 70px;
     left: 0;
     right: 0;
 }
@@ -57,7 +53,11 @@ h1 {
 }
 
 .first-div {
-    margin-top: 280px!important;
+    margin-top: 190px!important;
+}
+
+.about-div {
+    margin-top: 80px!important;
 }
 
 .text-expanded {
